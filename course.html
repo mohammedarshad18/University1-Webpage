@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SathyabamaUniversty</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="img/logo.svg" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Our Courses</h1>
+    </section>
+    <section class="course">
+      <h1>Courses We Offer</h1>
+      <p>
+        We offers multi-disciplinary academic programmes in various fields of
+        Engineering, Science, Technology, law, Dental Science, Pharmacy,
+        Nursing, Management, Arts and Science and Allied Health Sciences
+      </p>
+
+      <div class="row">
+        <div class="course-col">
+          <h3>Intermediate</h3>
+          <p>
+            Sathyabama Institute of Science and Technology courses like BE/
+            B.Tech /B.Arch/B.Des and B.Sc. Nursing is made based on the rank
+            scored in the All India Entrance Exam conducted by Sathyabama
+            University ( SAEEE ) every year. Admissions to undergraduate courses
+            in Arts, Humanities, Commerce, and Science streams are made based on
+            the merit of the qualifying examination marks
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Degreee</h3>
+          <p>
+            The Policy framework refers to the admission to the various
+            Undergraduate, Postgraduate and Research Programs offered by the
+            Institution.<br />This framework comprises of basic rules with
+            respect to admissions and any modification in this policy should be
+            brought by an amendment with due approval from the Board of
+            Management. This policy framework supersedes the earlier policy
+            framework and comes into practice after the due approval from the
+            Board of Management
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Post Graduation</h3>
+          <p>
+            The admissions to postgraduate Sathyabama Institute of Science and
+            Technology courses are made based on the qualifying exam marks.<br />However,
+            candidates with a valid GATE score (for ME/ M. Tech ) and CAT score
+            (for MBA) are given preference
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Sathyabama is a prestigious institution which excels in the fields of
+        Engineering, Science and Technology for more than three successful
+        decades<br />Sathyabama has emerged as a leading Institution and
+        achieved excellence in higher education to international standards owing
+        to its research and academic excellence
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        <i class="fa fa-twitter"></i>
+      </div>
+    </section>
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
